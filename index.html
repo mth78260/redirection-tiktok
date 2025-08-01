@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instructions de redirection</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+      color: #111;
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .step {
+      font-size: 17px;
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .step span {
+      background-color: #f33;
+      color: white;
+      border-radius: 50%;
+      padding: 6px 12px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+    .arrows {
+      font-size: 40px;
+      color: red;
+      animation: bounce 1.2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+  <script>
+    const userAgent = navigator.userAgent.toLowerCase();
+    const isTikTok = userAgent.includes("tiktok");
+
+    if (!isTikTok) {
+      window.location.href = "https://t.me/+yOEXTSd298c3NTM0";
+    }
+  </script>
+</head>
+<body>
+  <div class="arrows">⬆️⬆️⬆️</div>
+  <h2>Pour accéder au lien, suis ces deux étapes simples :</h2>
+  <div class="step"><span>1</span> Clique sur ⋯ en haut à droite</div>
+  <div class="step"><span>2</span> Puis sur <strong>"Ouvrir dans le navigateur"</strong></div>
+</body>
+</html>
